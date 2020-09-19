@@ -3,15 +3,23 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@ant-design/icons": "^4.2.2",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "@types/cheerio": "^0.22.21",
     "@types/jest": "^24.0.0",
     "@types/node": "^12.0.0",
     "@types/react": "^16.9.0",
     "@types/react-dom": "^16.9.0",
+    "@types/react-frame-component": "^4.1.1",
+    "antd": "^4.6.4",
+    "cheerio": "^1.0.0-rc.3",
+    "iconv-lite": "^0.6.2",
+    "node-forge": "^0.10.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-frame-component": "^4.1.3",
     "react-scripts": "3.4.3",
     "typescript": "~3.7.2"
   },
@@ -19,7 +27,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -35,5 +45,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "homepage": "https://pay.rajephon.dev/"
 }

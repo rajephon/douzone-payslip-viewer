@@ -1,44 +1,36 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 더존 급여명세서 뷰어
 
-## Available Scripts
+설치 프로그램 없이 모든 브라우저에서 사용할 수 있는 급여명세서 뷰어입니다.
 
-In the project directory, you can run:
+바로 이동 ➡️ https://pay.rajephon.dev
 
-### `yarn start`
+## 사용
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. [뷰어 사이트](https://pay.rajephon.dev)에 접속하세요.
+2. 급여명세서(.htm 확장자) 파일을 업로드하세요.
+3. 주민등록번호 뒷자리를 입력하세요.
+4. 확인 버튼을 누르세요.
+5. 급여를 확인합니다.💰
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## 개인정보보호
 
-### `yarn test`
+트래픽 분석을 위한 구글 애널리틱스 기본 페이지 접속 정보 수집 외 **급여명세서, 주민등록번호를 포함한 그 어떠한 정보도 수집하지 않으며, 또한 서버로 전송하지 않습니다.** 모든 복호화 처리는 로컬에서 이루어집니다.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 직접 설치
 
-### `yarn build`
+`create-react-app` 프로젝트입니다.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+git clone https://github.com/rajephon/douzone-salary-certificate-viewer.git
+cd douzone-salary-certificate-viewer
+yarn install
+yarn start
+```
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## 레퍼런스
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- 급여명세서 복호화하기 : [https://enghqii.tistory.com/42](https://enghqii.tistory.com/42)
 
-### `yarn eject`
+## LICENSE
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+MIT
