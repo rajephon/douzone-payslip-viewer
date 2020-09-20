@@ -57,7 +57,7 @@ function App() {
                         <Paragraph>
                             트래픽 분석을 위한 <a href="https://www.google.com/analytics/web/">구글 애널리틱스</a> 기본 페이지 접속 정보 수집 외 <strong>급여명세서, 주민등록번호를 포함한 그 어떠한 정보도 수집하지 않으며, 또한 서버로 전송하지 않습니다.</strong> 모든 복호화 처리는 로컬에서 이루어집니다.
                         </Paragraph>
-                        Developed by <a href="https://rajephon.dev">rajephon</a> / <a href="https://github.com/rajephon/douzone-salary-certificate-viewer">깃허브 <GithubOutlined /></a> / <a href="https://github.com/rajephon/douzone-salary-certificate-viewer/issues">버그 리포트</a>
+                        Developed by <a href="https://rajephon.dev">rajephon</a> / <a href="https://github.com/rajephon/douzone-payslip-viewer">깃허브 <GithubOutlined /></a> / <a href="https://github.com/rajephon/douzone-payslip-viewer/issues">버그 리포트</a>
                     </Typography>
                 </Col>
             </Row>

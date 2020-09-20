@@ -21,8 +21,8 @@
 `create-react-app` 프로젝트입니다.
 
 ```bash
-git clone https://github.com/rajephon/douzone-salary-certificate-viewer.git
-cd douzone-salary-certificate-viewer
+git clone https://github.com/rajephon/douzone-payslip-viewer.git
+cd douzone-payslip-viewer
 yarn install
 yarn start
 ```
